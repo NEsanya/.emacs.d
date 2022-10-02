@@ -1,9 +1,10 @@
 ;; List of packages
 (setq
  local-packages
- '(use-package ; Macro for fast configuration
-   meow        ; Modal editor mode
-   telega))    ; Telegram client for emacs
+ '(use-package  ; A use-package declaration for simplifying your .emacs
+   meow         ; Yet another modal editing on Emacs
+   golden-ratio ; Automatic resizing of Emacs windows to the golden ratio 
+   telega))     ; GNU Emacs telegram client (unoffical)
 
 ;; Adding melpa
 (require 'package)
