@@ -11,3 +11,7 @@
 
 ;; Turn off backup files
 (setq make-backup-files nil)
+
+;; Clipboard sync
+(setq x-select-enable-clipboard t)
+(setq x-select-enable-primary t)

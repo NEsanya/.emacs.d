@@ -3,6 +3,7 @@
  local-packages
  '(use-package  ; A use-package declaration for simplifying your .emacs
    meow         ; Yet another modal editing on Emacs
+   mood-line    ; A minimal mode-line configuration for Emacs, inspired by doom-modeline  
    golden-ratio ; Automatic resizing of Emacs windows to the golden ratio 
    telega))     ; GNU Emacs telegram client (unoffical)
 
@@ -15,8 +16,6 @@
 ;; Synchronize packages
 (defun nesanya/sync-packages ()
   (interactive)
-  (unless package-archive-contents
-    (package-refresh-conents))
   (dolist (package local-packages)
     (unless (package-installed-p package)
       (package-install package))))
