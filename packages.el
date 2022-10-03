@@ -9,6 +9,7 @@
    eglot             ; A client for Language Server Protocol
    yasnippet         ; A template system for Emacs
    rust-mode         ; Emacs configuration for Rust
+   vertico           ; vertico.el - VERTical Interactive COmpletion
    magit             ; It's Magit! A Git porcelain inside Emacs
    golden-ratio      ; Automatic resizing of Emacs windows to the golden ratio 
    telega))          ; GNU Emacs telegram client (unoffical)
