@@ -1,9 +1,8 @@
-# .emacs.d
+# .emacs.d (WORK IN PROGRESS)
 My vanila emacs configuration
 
-##### WARNING!!! WORK IN PROGRESS
-
-### Installation
+## Installation
+---
 
 First of all, you need to set emacs as daemon ([systemd example](https://www.emacswiki.org/emacs/EmacsAsDaemon)).
 
