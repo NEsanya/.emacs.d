@@ -1,12 +1,17 @@
 ;; List of packages
 (setq
  local-packages
- '(use-package  ; A use-package declaration for simplifying your .emacs
-   powerline    ; Emacs powerline
-   boon         ; Ergonomic Command Mode for Emacs 
-   magit        ; It's Magit! A Git porcelain inside Emacs
-   golden-ratio ; Automatic resizing of Emacs windows to the golden ratio 
-   telega))     ; GNU Emacs telegram client (unoffical)
+ '(use-package       ; A use-package declaration for simplifying your .emacs
+   powerline         ; Emacs powerline
+   boon              ; Ergonomic Command Mode for Emacs 
+   tree-sitter       ; Tree-sitter bindings for Emacs Lisp
+   tree-sitter-langs ; Language bundle for Emacs's tree-sitter package
+   eglot             ; A client for Language Server Protocol
+   yasnippet         ; A template system for Emacs
+   rust-mode         ; Emacs configuration for Rust
+   magit             ; It's Magit! A Git porcelain inside Emacs
+   golden-ratio      ; Automatic resizing of Emacs windows to the golden ratio 
+   telega))          ; GNU Emacs telegram client (unoffical)
 
 ;; Adding melpa
 (require 'package)
