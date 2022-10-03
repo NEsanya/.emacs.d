@@ -2,8 +2,8 @@
 (setq
  local-packages
  '(use-package  ; A use-package declaration for simplifying your .emacs
-   meow         ; Yet another modal editing on Emacs
-   mood-line    ; A minimal mode-line configuration for Emacs, inspired by doom-modeline  
+   powerline    ; Emacs powerline
+   boon         ; Ergonomic Command Mode for Emacs 
    golden-ratio ; Automatic resizing of Emacs windows to the golden ratio 
    telega))     ; GNU Emacs telegram client (unoffical)
 
@@ -19,6 +19,9 @@
   (dolist (package local-packages)
     (unless (package-installed-p package)
       (package-install package))))
+
+;; Remove custom file for use-package
+(setq cutsom-file "/dev/null")
 
 ;; Load packages configuration
 (setq configuration-directory
