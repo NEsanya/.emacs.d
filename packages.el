@@ -4,6 +4,7 @@
  '(use-package  ; A use-package declaration for simplifying your .emacs
    powerline    ; Emacs powerline
    boon         ; Ergonomic Command Mode for Emacs 
+   magit        ; It's Magit! A Git porcelain inside Emacs
    golden-ratio ; Automatic resizing of Emacs windows to the golden ratio 
    telega))     ; GNU Emacs telegram client (unoffical)
 
@@ -16,6 +17,8 @@
 ;; Synchronize packages
 (defun nesanya/sync-packages ()
   (interactive)
+  (unless package-archive-contents
+    (package-refresh-conents))
   (dolist (package local-packages)
     (unless (package-installed-p package)
       (package-install package))))
