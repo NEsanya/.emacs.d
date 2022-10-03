@@ -28,3 +28,8 @@
               (message "Deleted file %s." filename)
               (kill-buffer)))
       (message "Not a file visiting buffer!"))))
+
+;; Reload config
+(defun nesanya/reload-config ()
+  (interactive)
+  (load-file user-init-file))
