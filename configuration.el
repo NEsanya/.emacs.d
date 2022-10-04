@@ -16,6 +16,9 @@
 (setq x-select-enable-clipboard t)
 (setq x-select-enable-primary t)
 
+;; Auto closing pairs
+(electric-pair-mode)
+
 ;; Delete file and buffer
 (defun delete-file-and-buffer ()
   "Kill the current buffer and deletes the file it is visiting."

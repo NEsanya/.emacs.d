@@ -10,6 +10,7 @@
    yasnippet         ; A template system for Emacs
    rust-mode         ; Emacs configuration for Rust
    vertico           ; vertico.el - VERTical Interactive COmpletion
+   corfu             ; corfu.el - Completion Overlay Region FUnction
    magit             ; It's Magit! A Git porcelain inside Emacs
    golden-ratio      ; Automatic resizing of Emacs windows to the golden ratio 
    telega))          ; GNU Emacs telegram client (unoffical)
