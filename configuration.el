@@ -36,3 +36,7 @@
 (defun nesanya/reload-config ()
   (interactive)
   (load-file user-init-file))
+
+;; Remove startup message
+(setq inhibit-startup-message t)
+(setq initial-scratch-message "")

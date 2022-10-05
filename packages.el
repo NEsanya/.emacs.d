@@ -13,6 +13,7 @@
    corfu             ; corfu.el - Completion Overlay Region FUnction
    magit             ; It's Magit! A Git porcelain inside Emacs
    golden-ratio      ; Automatic resizing of Emacs windows to the golden ratio 
+   exwm              ; Emacs X Window Manager
    telega))          ; GNU Emacs telegram client (unoffical)
 
 ;; Adding melpa
