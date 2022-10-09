@@ -9,11 +9,15 @@
    eglot             ; A client for Language Server Protocol
    yasnippet         ; A template system for Emacs
    rust-mode         ; Emacs configuration for Rust
-   vertico           ; vertico.el - VERTical Interactive COmpletion
+   typescript-mode   ; TypeScript-support for Emacs
+   elm-mode          ; Elm mode for Emacs
+   racket-mode       ; Emacs major and minor modes for Racket: edit, REPL, check-syntax, debug, profile, and more.
+   geiser-racket     ; Geiser implementation for racket
    corfu             ; corfu.el - Completion Overlay Region FUnction
    magit             ; It's Magit! A Git porcelain inside Emacs
    golden-ratio      ; Automatic resizing of Emacs windows to the golden ratio 
-   exwm              ; Emacs X Window Manager
+   vertico           ; vertico.el - VERTical Interactive COmpletion
+   vterm             ; Emacs libvterm integration
    telega))          ; GNU Emacs telegram client (unoffical)
 
 ;; Adding melpa
